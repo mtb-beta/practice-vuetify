@@ -1,4 +1,4 @@
-# my-app
+# Practice Vuetify
 
 ## Project setup
 ```
