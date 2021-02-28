@@ -11,27 +11,51 @@
       <HelloWorld/>
       <v-alert 
         border="top"
-        type="success"
+        color="red lighten-2"
       >
-        これはSuccessです。
+        これはred lighten-2です。
+      </v-alert>
+      <v-alert 
+        border="top"
+        color="red lighten-1"
+      >
+        これはred lighten-1です。
+      </v-alert>
+      <v-alert 
+        border="top"
+        color="red"
+      >
+        これはredです。
+      </v-alert>
+      <v-alert 
+        border="top"
+        color="red darken-1"
+      >
+        これはred darken-1です。
+      </v-alert>
+      <v-alert 
+        border="top"
+        color="red darken-2"
+      >
+        これはred darken-2です。
       </v-alert>
       <v-alert
         border="right"
-        type="info"
+        color="blue-grey"
       >
-        これはInfoです。
+        これはblue-greyです。
       </v-alert>
       <v-alert 
         border="bottom"
-        type="warning"
+        color="pink darken-1"
       >
-        これはWarningです。
+        これはpink darken-1です。
       </v-alert>
       <v-alert 
         border="left"
-        type="error"
+        type="indigo"
       >
-        これはErroです。
+        これはindigoです。
       </v-alert>
     </v-main>
   </v-app>
